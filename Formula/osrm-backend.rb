@@ -1,7 +1,7 @@
 class OsrmBackend < Formula
   desc "High performance routing engine"
   homepage "http://project-osrm.org/"
-  head "https://github.com/mjkillough/osrm-backend.git", revision: "76da5d4c75dd70d5a872e148beb461ee00c7d7a0"
+  head "https://github.com/Antti/osrm-backend.git", revision: "b0c4dba86b041eae01f8095810d8a75fe6ce29d1"
 
   depends_on "cmake" => :build
   depends_on "boost"
